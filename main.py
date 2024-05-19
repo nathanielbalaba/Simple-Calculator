@@ -1,9 +1,12 @@
-def subtract(a,b):
-    return a+b
+print('+','-','*')
+while True:
+    num1=input('inter the first num:')
+    num2=input('inter the first num:')
+    equals=input('choose your operetor:')
 
-def minuse(a,b):
-    return a-b
-
-def multiple(a,b):
-    return a*b
-
+if equals=='+':
+    result=num1+num2
+if equals=='-':
+    result=num1-num2
+if equals=='*':
+    result=num1*num2
